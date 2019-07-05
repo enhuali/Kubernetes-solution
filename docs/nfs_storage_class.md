@@ -8,7 +8,7 @@
 
 ## Kuberenetes支持的文件存储
 
-![这里写图片描述](pics/nfs_storage_class_01.png)
+![这里写图片描述](../pics/nfs_storage_class_01.png)
 
 综合各围度考虑后，暂时考虑使用Nfs作为Kubernetes的共享存储文件系统
 

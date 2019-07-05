@@ -19,7 +19,7 @@ cpu使用率为0%当超过50%时进行扩容，最大扩容到5个
 
 mem使用率为10%当超过10%时进行扩容，最大扩容到5个
 
-![](pics/hpa_01.png)
+![](../pics/hpa_01.png)
 
 
 
@@ -35,7 +35,7 @@ while true; do curl 172.16.49.102;done
 
 随着cpu压力的上升，Pod数量由1个逐步扩容到5个
 
-![](pics/hpa_02.png)
+![](../pics/hpa_02.png)
 
 
 
@@ -47,7 +47,7 @@ while true; do curl 172.16.49.102;done
 
 压力下来后，Pod数量又恢复到1个
 
-![](pics/hpa_03.png)
+![](../pics/hpa_03.png)
 
 
 

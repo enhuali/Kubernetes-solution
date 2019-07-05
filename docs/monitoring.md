@@ -396,4 +396,4 @@ helm upgrade  promethues-operator --namespace monitoring -f prome-settings.yaml 
 
 最后来张效果图
 
-![image-20190610115829460](pics/monitoring_01.png)
+![image-20190610115829460](../pics/monitoring_01.png)

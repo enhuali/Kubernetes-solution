@@ -94,27 +94,27 @@ spec:
 
 默认web端口为8081，登陆的初始账号为admin/admin123
 
-![image-20190618120112244](pics/nexu3_01.png)
+![image-20190618120112244](../pics/nexu3_01.png)
 
 从图中可以看到三种仓库类型：group（仓库组）、hosted（宿主）、proxy（代理）；每种类型的Format分为maven2和nugget，url是仓库的地址，会在我们的项目pom里被使用到；由于我们用到的是maven库所以下面仅针对maven类型进行介绍；
 
-![image-20190618104445148](pics/nexu3_02.png)
+![image-20190618104445148](../pics/nexu3_02.png)
 
 
 - `maven-central`：这是maven的中心仓库，nexus这里只是做一个代理，最后会转发到maven的central库
-  ![image-20190618105409827](pics/nexu3_03.png)
+  ![image-20190618105409827](../pics/nexu3_03.png)
 
 
 
 - `maven-public`: 这是一个仓库组，访问这个仓库组的地址其实会访问组内所有仓库
-  ![image-20190618105444537](pics/nexu3_04.png)
+  ![image-20190618105444537](../pics/nexu3_04.png)
 
 
 
 - `maven-release`：这是nexus提供的一个默认的存放release版本jar包的仓库
-  ![image-20190618105751279](pics/nexu3_05.png)
+  ![image-20190618105751279](../pics/nexu3_05.png)
 - `maven-snapshots`：这是nexus提供的一个默认的存放snapshot版本jar包的仓库
-  ![image-20190618105804737](pics/nexu3_06.png)
+  ![image-20190618105804737](../pics/nexu3_06.png)
 
 
 
@@ -122,23 +122,23 @@ spec:
 
 新建库需要注意标红处的内容，`Remote storage`为关联公网的仓库地址，以下我们共创建了6个仓库
 
-![image-20190618110500059](pics/nexu3_07.png)
+![image-20190618110500059](../pics/nexu3_07.png)
 
-![image-20190618110827210](pics/nexu3_08.png)
+![image-20190618110827210](../pics/nexu3_08.png)
 
-![image-20190618110847435](pics/nexu3_09.png)
+![image-20190618110847435](../pics/nexu3_09.png)
 
-![image-20190618110906019](pics/nexu3_10.png)
+![image-20190618110906019](../pics/nexu3_10.png)
 
-![image-20190618110929241](pics/nexu3_11.png)
+![image-20190618110929241](../pics/nexu3_11.png)
 
-![image-20190618110949966](pics/nexu3_12.png)
+![image-20190618110949966](../pics/nexu3_12.png)
 
 
 
 最后我们需要将maven-public关联刚才创建的仓库，需要注意的是此处的URL为maven调用的地址
 
-![image-20190618111258397](pics/nexu3_13.png)
+![image-20190618111258397](../pics/nexu3_13.png)
 
 
 

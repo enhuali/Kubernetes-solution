@@ -10,24 +10,24 @@
 
 - 新增业务需由manager创建项目到对应标签下（B端）后，再进行通知运维人员进行上线，比如新加B端job5项目
 
-  ![image-20190610181553821](pics/use_jenkins_01.png)
+  ![image-20190610181553821](../pics/use_jenkins_01.png)
 
   新增项目复制之前的模版即可
 
-  ![image-20190610181654826](pics/use_jenkins_02.png)
+  ![image-20190610181654826](../pics/use_jenkins_02.png)
 
   
 
   修改域名配置中的内容，将期望域名进行更替，多个域名时用英文的逗号进行替换
 
-  ![image-20190610182002088](pics/use_jenkins_03.png)
+  ![image-20190610182002088](../pics/use_jenkins_03.png)
   
 
 
 
 ## 系统管理
 
-![image-20190610151149628](pics/use_jenkins_04.png)
+![image-20190610151149628](../pics/use_jenkins_04.png)
 
 `插件管理` 插件的增删更新等操作
 
@@ -55,9 +55,9 @@
 
 - `Role-based Authorization Strategy` 
   可以扩展Jenkins的访问控制功能，以支持更加微妙的身份认证和授权方案，插件安装后在"系统管理下"会多一个"Manage and Assign Roles"按钮
-  ![image-20190610154741453](pics/use_jenkins_05.png)
+  ![image-20190610154741453](../pics/use_jenkins_05.png)
 
-![image-20190610182342988](pics/use_jenkins_06.png)
+![image-20190610182342988](../pics/use_jenkins_06.png)
 
 - 全局配置
   `anyone` 此规则仅有read all的权限，所有用户都需要关联此项
@@ -68,17 +68,17 @@
   `B builder` 此规则仅有job build权限，一般分配给项目下的普通组员
   `B manager` 此规则有创建job的权限，当用户为项目manager时进行关联，具有job的最高权限
 
-![image-20190610182743244](pics/use_jenkins_07.png)
+![image-20190610182743244](../pics/use_jenkins_07.png)
 
 此图配置用户lienhuab为B端项目的manager，lienhuac仅有发布权限
 用户lienhuab
 
-![image-20190610182900389](pics/use_jenkins_08.png)
+![image-20190610182900389](../pics/use_jenkins_08.png)
 
 
 用户lienhuac
 
-![image-20190610183004566](pics/use_jenkins_09.png)
+![image-20190610183004566](../pics/use_jenkins_09.png)
 
 
 
@@ -117,8 +117,8 @@
 
 同时需要将"系统"---"全局安全配置"---"标记格式器" 改成"safe html"
 
-![image-20190704190008569](pics/use_jenkins_10.png)
+![image-20190704190008569](../pics/use_jenkins_10.png)
 
 效果图
 
-![image-20190704190053002](pics/use_jenkins_11.png)
+![image-20190704190053002](../pics/use_jenkins_11.png)

@@ -156,21 +156,21 @@
   d777b3a282szks2bfd28a16c8dd61ds
   ```
 
-- ![image-20190527111944672](pics/jenkins-master_02.png)
+- ![image-20190527111944672](../pics/jenkins-master_02.png)
 
   选择"安装推荐的插件"下一步
 
-- ![image-20190527112443906](pics/jenkins-master_03.png)
+- ![image-20190527112443906](../pics/jenkins-master_03.png)
 
   等待片刻
 
-- ![image-20190527112638385](pics/jenkins-master_04.png)
+- ![image-20190527112638385](../pics/jenkins-master_04.png)
 
   定义管理员账号信息
 
-- ![image-20190527113023179](pics/jenkins-master_05.png)
+- ![image-20190527113023179](../pics/jenkins-master_05.png)
 
-![image-20190527113051534](pics/jenkins-master_06.png)
+![image-20190527113051534](../pics/jenkins-master_06.png)
 
 初始化完毕
 
@@ -212,7 +212,7 @@ openssl pkcs12 -export -out ./cert.pfx -inkey ./client.key -in ./client.crt -cer
 
 新增凭据，将生成的cert.pfx上传，并输入刚才的密码
 
-![image-20190527121630075](pics/jenkins-master_08.png)
+![image-20190527121630075](../pics/jenkins-master_08.png)
 
  添加完毕后可以点击链接测试，返回"success"则配置成功
 
@@ -240,7 +240,7 @@ openssl pkcs12 -export -out ./cert.pfx -inkey ./client.key -in ./client.crt -cer
 
 "系统管理"->"系统管理"->"Gitlab"
 
-![image-20190527135854249](pics/jenkins-master_09.png)
+![image-20190527135854249](../pics/jenkins-master_09.png)
 
 `connection name` 自定义名称
 
@@ -250,7 +250,7 @@ openssl pkcs12 -export -out ./cert.pfx -inkey ./client.key -in ./client.crt -cer
 
 `Credentials` 用于连接此gitlab的token
 
-![image-20190527140441067](pics/jenkins-master_10.png)
+![image-20190527140441067](../pics/jenkins-master_10.png)
 
 点击"Test connection"进行测试，返回"success"则配置成功
 
@@ -260,7 +260,7 @@ openssl pkcs12 -export -out ./cert.pfx -inkey ./client.key -in ./client.crt -cer
 
 ### 创建一个项目为"lienhua"
 
-![image-20190527140818224](pics/jenkins-master_11.png)
+![image-20190527140818224](../pics/jenkins-master_11.png)
 
 
 
@@ -268,7 +268,7 @@ openssl pkcs12 -export -out ./cert.pfx -inkey ./client.key -in ./client.crt -cer
 
 "添加参数"->"Active Choices Parameter"
 
-![image-20190610114100845](pics/jenkins-master_12.png)
+![image-20190610114100845](../pics/jenkins-master_12.png)
 
 `Name` 变量名称
 
@@ -282,7 +282,7 @@ openssl pkcs12 -export -out ./cert.pfx -inkey ./client.key -in ./client.crt -cer
 
 "添加参数"->"Active Choices Reactive Parameter"
 
-![image-20190610114138458](pics/jenkins-master_13.png)
+![image-20190610114138458](../pics/jenkins-master_13.png)
 
 `Groovy Script` 关联三套环境可选择的操作（开发和测试环境支持更新和回滚，上线操作支持更新、回滚及灰度发布）
 
@@ -292,7 +292,7 @@ openssl pkcs12 -export -out ./cert.pfx -inkey ./client.key -in ./client.crt -cer
 
 "添加参数"->"Active Choices Reactive Parameter"
 
-![image-20190610114253116](pics/jenkins-master_14.png)
+![image-20190610114253116](../pics/jenkins-master_14.png)
 
 `Groovy Script` 关联三套环境操作时使用的分支（dev/test/master），当操作为回滚时，分支为空即可
 
@@ -302,7 +302,7 @@ openssl pkcs12 -export -out ./cert.pfx -inkey ./client.key -in ./client.crt -cer
 
 "添加参数"->"Active Choices Reactive Parameter"
 
-![image-20190610114443345](pics/jenkins-master_15.png)
+![image-20190610114443345](../pics/jenkins-master_15.png)
 
 此项定义项目对应的域名，便于跟踪
 
@@ -310,7 +310,7 @@ openssl pkcs12 -export -out ./cert.pfx -inkey ./client.key -in ./client.crt -cer
 
 ### 定义流水线
 
-![image-20190527141711021](pics/jenkins-master_16.png)
+![image-20190527141711021](../pics/jenkins-master_16.png)
 
 `定义` 选择Pipeline script from SCM
 
@@ -330,17 +330,17 @@ openssl pkcs12 -export -out ./cert.pfx -inkey ./client.key -in ./client.crt -cer
 
 # Jenkins逻辑
 
-![image-20190527144337212](pics/jenkins-master_17.png)
+![image-20190527144337212](../pics/jenkins-master_17.png)
 
 # 构建项目
 
 "Build with Parameters" 选择预发布的环境点击"开始构建"即可
 
-![image-20190610114559337](pics/jenkins-master_18.png)
+![image-20190610114559337](../pics/jenkins-master_18.png)
 
 可点击"Blue Ocean"进行任务发布进度情况
 
-![image-20190527151608820](pics/jenkins-master_19.png)
+![image-20190527151608820](../pics/jenkins-master_19.png)
 
 
 
