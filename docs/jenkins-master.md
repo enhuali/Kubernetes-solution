@@ -148,7 +148,7 @@
 
 # 初始化
 
-- ![image-20190527110926848](pics/jenkins-master_01.png)
+- ![image-20190527110926848](../pics/jenkins-master_01.png)
 
   ```
   # 在之前定义的共享存储目录下获取
@@ -190,7 +190,7 @@
 
 "系统管理"->"系统管理"->"云"->"新增一个云"->"Kubernetes"
 
-![image-20190527120945458](pics/jenkins-master_07.png)
+![image-20190527120945458](../pics/jenkins-master_07.png)
 
 `名称` 自定义即可
 
