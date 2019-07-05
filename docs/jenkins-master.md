@@ -2,7 +2,7 @@
 
 # 安装
 
-目录文件处于 [jenkins](./jenkins)
+目录文件处于 [jenkins](../jenkins)
 
 1. jenkins安装方式比较多样化，具体可以参考[Jenkins官网](https://jenkins.io/zh/doc/book/installing/)，我们这里使用K8s集群容器化部署服务，所以我们在开始之前需要有一套k8s集群环境，接下来看启动服务的相关文件
 

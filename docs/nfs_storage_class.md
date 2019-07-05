@@ -65,7 +65,7 @@ umount 10.16.200.119:/data/nfs
 
 ## 动态pv
 
-K8s支持静态pv和动态pv，动态Pv更高级一些，能够直接通过服务申请即可自行创建相关存储目录，无需人员干预；工作目录处于[nfs_storage_class](nfs_storage_class/)
+K8s支持静态pv和动态pv，动态Pv更高级一些，能够直接通过服务申请即可自行创建相关存储目录，无需人员干预；工作目录处于[nfs_storage_class](../nfs_storage_class/)
 
 需要注意的是：
 

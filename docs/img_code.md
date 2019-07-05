@@ -6,7 +6,7 @@
 
 ## 镜像制作
 
-工作目录处于[images/image_codes](images/image_codes)
+工作目录处于[images/image_codes](../images/image_codes)
 
 ```
 #工作目录

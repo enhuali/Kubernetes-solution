@@ -6,7 +6,7 @@
 
 ## jnlp镜像制作
 
-工作目录处于[jenkins-slave](images/image_jenkins-slave)
+工作目录处于[jenkins-slave](../images/image_jenkins-slave)
 
 - 需拷贝k8s集群环境下的kubectl、docker对应版本的二进制文件至当前目录
 - 需将各个集群的kubeconfig合并至config文件并保存至当前目录

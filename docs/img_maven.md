@@ -6,7 +6,7 @@
 
 ## 镜像制作
 
-工作目录处于[images/image_maven](images/image_maven)
+工作目录处于[images/image_maven](../images/image_maven)
 
 ```
 #工作目录

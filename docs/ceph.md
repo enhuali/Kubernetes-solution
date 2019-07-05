@@ -264,4 +264,5 @@ ceph fs new cephfs cephfs_metadata cephfs_data // 需要注意元数据池在前
   ```
 
 - 动态PV
-  [工作目录](./ceph_provisioner)
+  [工作目录](../ceph_provisioner)
+

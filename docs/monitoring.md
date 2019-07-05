@@ -2,7 +2,7 @@
 
 # Prometheus-operator
 
-工作文件处于 [monitoring](./monitoring)
+工作文件处于 [monitoring](../monitoring)
 
 # 安装
 

@@ -6,7 +6,7 @@
 
 ## 镜像制作
 
-工作目录处于[images/image_jdk1.8.0_144](images/image_jdk)
+工作目录处于[images/image_jdk1.8.0_144](../images/image_jdk)
 
 ```
 #工作目录

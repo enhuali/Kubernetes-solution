@@ -6,7 +6,7 @@ v1.16.0
 
 ## 镜像制作
 
-工作目录处于[images/image_nginx1.16.0](images/image_nginx1.16.0)
+工作目录处于[images/image_nginx1.16.0](../images/image_nginx1.16.0)
 
 ```
 #目录结构

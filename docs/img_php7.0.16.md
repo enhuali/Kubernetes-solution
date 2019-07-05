@@ -6,7 +6,7 @@ V7.0.16
 
 ## 镜像制作
 
-工作目录处于[images/image_php7.0.16](images/image_php7.0.16)
+工作目录处于[images/image_php7.0.16](../images/image_php7.0.16)
 
 ```
 #目录结构
