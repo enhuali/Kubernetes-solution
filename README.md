@@ -91,11 +91,19 @@ Jenkins自动化发布，开发人员更新代码至Gitlab后，通过界面在�
 - 缺点
   - 运维人员需持续优化Pipeline脚本及保障集群健康
 
-# 架构图
+# 项目脑图
+
+![image-20190628165549063](pics/斗米K8s平台建设.png)
+
+# 容器架构图
 
 ![image-20190628165549063](pics/readme_01.png)
 
 
+
+# 日志收集架构图
+
+![image-20190628165549063](pics/日志架构.jpg)
 
 <table border="0">
     <tr>
@@ -108,16 +116,12 @@ Jenkins自动化发布，开发人员更新代码至Gitlab后，通过界面在�
 
 
 
-
-
-
-
 # 项目开展
 
 <table border="0">
     <tr>
         <td><strong>Kubernetes</strong><a href="docs/guide/index.md"></a></td>
-        <td><a href="https://github.com/enhuali/Ansible-Kubernetes">集群部署</a></td>
+        <td><a href="http://git.corp.doumi.com/sa/k8s-deployment">集群部署</a></td>
         <td><a href="docs/nfs_storage_class.md">共享存储nfs</a></td>
         <td><a href="docs/ceph.md">共享存储ceph</a></td>
         <td><a href="docs/hpa.md">HPA</a></td>
@@ -148,7 +152,7 @@ Jenkins自动化发布，开发人员更新代码至Gitlab后，通过界面在�
         <td><a href="docs/monitoring.md">Monitoring</a></td>
         <td><a href="docs/harbor.md">Harbor</a></td>
         <td><a href="docs/nexus3.md">Nexus3</a></td>
-        <td><a href=""></a></td>
+        <td><a href="docs/efk.md">EFK+kafka+logstash</a></td>
         <td><a href=""></a></td>
     </tr>
     <tr>
@@ -157,16 +161,16 @@ Jenkins自动化发布，开发人员更新代码至Gitlab后，通过界面在�
         <td><a href="docs/use_prometheus.md">Prometheus</a></td>
         <td><a href="docs/use_alertmanager.md">Alertmanager</a></td>
         <td><a href="docs/use_grafana.md">Grafana</a></td>
-        <td><a href=""></a></td>
+        <td><a href="docs/use_efk.md">EFK+kafka+logstash</a></td>
         <td><a href=""></a></td>
     </tr>
     <tr>
         <td><strong>其他</strong></td>
         <td><a href="docs/logrotate.md">日志切割</a></td>
-        <td><a href="">Jenkins-Pipeline脚本</a></td>
-        <td><a href="docs/practice/mariadb_cluster.md"></a></td>
-        <td><a href=""></a></td>
-        <td><a href=""></a></td>
+        <td><a href="http://git.corp.doumi.com/sa/k8s-pipeline/blob/devlop/scripts/Jenkinsfile">Jenkins-Pipeline脚本</a></td>
+        <td><a href="docs/传统Vs虚拟化Vs容器化.md">传统Vs虚拟化Vs容器化</a></td>
+        <td><a href="docs/容器化架构设计.pptx">容器化架构设计ppt</a></td>
+        <td><a href="docs/链路追踪.md">链路追踪选型</a></td>
         <td><a href=""></a></td>
     </tr>
 </table>
