@@ -20,9 +20,9 @@ alertmanager:
     global:
       resolve_timeout: 5m
       smtp_smarthost: 'smtp.exmail.qq.com:465'
-      smtp_from: 'doumi_hr@doumi.com'
-      smtp_auth_username: 'doumi_hr@doumi.com'
-      smtp_auth_password: '03Wt6828'
+      smtp_from: 'msg@qq.com'
+      smtp_auth_username: 'msg@qq.com'
+      smtp_auth_password: 'sad12s'
       smtp_require_tls: false
     templates:
       - "/etc/alertmanager-tmpl/wechat.tmpl"

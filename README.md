@@ -121,7 +121,7 @@ Jenkins自动化发布，开发人员更新代码至Gitlab后，通过界面在�
 <table border="0">
     <tr>
         <td><strong>Kubernetes</strong><a href="docs/guide/index.md"></a></td>
-        <td><a href="http://git.corp.doumi.com/sa/k8s-deployment">集群部署</a></td>
+        <td><a href="http://git.qq.com/sa/k8s-deployment">集群部署</a></td>
         <td><a href="docs/nfs_storage_class.md">共享存储nfs</a></td>
         <td><a href="docs/ceph.md">共享存储ceph</a></td>
         <td><a href="docs/hpa.md">HPA</a></td>
@@ -167,7 +167,7 @@ Jenkins自动化发布，开发人员更新代码至Gitlab后，通过界面在�
     <tr>
         <td><strong>其他</strong></td>
         <td><a href="docs/logrotate.md">日志切割</a></td>
-        <td><a href="http://git.corp.doumi.com/sa/k8s-pipeline/blob/devlop/scripts/Jenkinsfile">Jenkins-Pipeline脚本</a></td>
+        <td><a href="http://git.qq.com/k8s-pipeline/blob/devlop/scripts/Jenkinsfile">Jenkins-Pipeline脚本</a></td>
         <td><a href="docs/传统Vs虚拟化Vs容器化.md">传统Vs虚拟化Vs容器化</a></td>
         <td><a href="docs/容器化架构设计.pptx">容器化架构设计ppt</a></td>
         <td><a href="docs/链路追踪.md">链路追踪选型</a></td>
